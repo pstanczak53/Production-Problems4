@@ -1,0 +1,146 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end http://meyerweb.com/eric/tools/css/reset/ */
+
+/* Starting CSS for my Production problems 4 */
+body {
+	
+	background-image: url("http://static.tumblr.com/48eda3b0e424d859e46f61940784d766/z5lri7u/8THnk19a3/tumblr_static_1bw360godi5cgk84g0o8sg0wo.jpg");
+	
+	background-color:#e5e6e8;
+  
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+	width: 100%;
+	line-height:inherit;
+	padding:0px;
+	
+}
+
+html {
+  font-family: sans-serif;
+  
+  line-height: 1;
+}
+
+header{
+	background-color:#00004d;
+	font-family:sans-serif;
+	height: 70px;
+	clear: both;
+	
+}
+
+
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+ body {
+	 
+	background-image:back.jpg;
+	 
+	display: block;
+	height: 100%;
+	margin: auto;
+}
+
+h1{
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	color:#ccf5ff;
+	height:1.6em;
+	padding:15px;
+}
+
+table {
+   	width: 1100px;
+    border-collapse: collapse;
+	margin: 50px auto;
+}
+th, td {
+	border: 1px solid purple;
+}
+th {
+	background-color: #002266;
+	color: #FFFFFF;
+    width: 200px;
+	height: 60px;
+	font-size: 1.5em;
+	font-weight: bold;
+	vertical-align: middle;
+	
+}
+td{
+	color: #FFFFFF;
+	background-color: #003399;
+	height: 40px;
+	text-align:center;
+	padding:5px;
+}
+
+footer{
+	
+	background-color:#00004d;
+	text-align: center;
+	font-family:sans-serif;
+	color:#ccf5ff;
+	height: 50px;
+	clear: both;
+	padding:10px;
+	
+}
